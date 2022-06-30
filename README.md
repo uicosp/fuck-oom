@@ -21,3 +21,7 @@
 >
 
 另外 StackOverflowError 也无法 dump，因为 StackOverflowError 和 OutOfMemoryError 都继承自 VirtualMachineError，两者没有继承关系。
+
+## 参考
+
+- https://www.cnblogs.com/simon-1024/p/12221917.html
